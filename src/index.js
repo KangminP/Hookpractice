@@ -1,8 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+// Hooks
+import Hook1 from './Hook1';
+import Hook2 from './Hook2';
+import Hook3 from './Hook3';
+
+const App = () => {
+  return (
+    <div>
+      <Hook1 />
+      <Hook2 />
+      <Hook3 />
+    </div>
+  )
+}
 
 ReactDOM.render(
   <React.StrictMode>
